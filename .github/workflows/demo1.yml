@@ -3,6 +3,11 @@ on:
   pull_request:
     types: [opened, edited]
   workflow_dispatch: 
+  push: 
+    branches:
+      - main #main
+      - 'dev-*' # dev dev-this-is-new
+      - 'feat/**' # feat/dev feat/new-ev
 jobs:
   deploy:
     runs-on: ubuntu-latest

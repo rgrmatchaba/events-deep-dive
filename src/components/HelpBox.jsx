@@ -8,6 +8,9 @@ function HelpBox({ title, text }) {
       <h3>{title}</h3>
       <p>{text}</p>
       <p>{text}</p>
+      <h3>{title}</h3>
+      <p>{text}</p>
+      <p>{text}</p>
     </article>
   );
 }
